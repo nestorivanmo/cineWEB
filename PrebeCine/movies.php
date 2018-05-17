@@ -14,10 +14,16 @@
 	if ($resultCheck > 0) {
 		while ($row = mysqli_fetch_assoc($result)) {?>
 
-			<h3><?= $row['titulo'] . '<br>';?></h3>
+			<h1><?= $row['titulo'] . '<br>';?></h1>
 
-			<img src="<?=$row['imagen'] ?>">
+			<img  src="<?=$row['imagen'] ?>" >
 
+			<h6><?= $row['descripcion'] . '<br>';?></h6>
+			<h6><?= $row['director'] . '<br>';?></h6>
+			<h6><?= $row['year'] . '<br>';?></h6>
+			<h6><?= $row['duracion'] . '<br>';?></h6>
+			<h6><?= $row['clasificacion'] . '<br>';?></h6>
+			<h6><?= $row['horarios'] . '<br>';?></h6>
 
 		<?php }
 	}
