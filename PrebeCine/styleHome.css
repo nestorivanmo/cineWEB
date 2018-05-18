@@ -87,6 +87,28 @@ body{
 	padding: 0;
 }
 
+.logout{
+  width: 150px;
+  height: 40px;
+  background-color: #262626;
+   border: 3px solid #F0B911;
+   margin-top: -40px;
+}
+
+#textL{
+	position: absolute;
+  	margin-top: 8px;
+  margin-left: -35px;
+  font-size: 130%;
+  color:#F0B911;
+  text-decoration: none;
+}
+
+#textL:hover{  
+    text-decoration: underline;
+  }
+
+
 @keyframes animate{
 	0%{
 		background-position: left 0px top 10px;

@@ -22,12 +22,12 @@
 					<div class="content">
 						<h1><?= $row['titulo'] . '<br>';?></h1>
 
-						<h6><?= $row['descripcion'] . '<br>';?></h6>
-						<h6><?= $row['director'] . '<br>';?></h6>
-						<h6><?= $row['year'] . '<br>';?></h6>
-						<h6><?= $row['duracion'] . '<br>';?></h6>
-						<h6><?= $row['clasificacion'] . '<br>';?></h6>
-						<h6><?= $row['horarios'] . '<br>';?></h6>
+						<h5><?= $row['descripcion'] . '<br>';?></h5>
+						<h5><strong>Director: </strong><?= $row['director'] . '<br>';?></h5>
+						<h5><strong>Año: </strong><?= $row['year'] . '<br>';?></h5>
+						<h5><strong>Duración: </strong><?= $row['duracion'] . '<br>';?> min</h5>
+						<h5><strong>Clasificación: </strong><?= $row['clasificacion'] . '<br>';?></h5>
+						<h5><strong>Horarios: </strong><?= $row['horarios'] . '<br>';?></h5>
 					</div>
 				</div>
 				</div>

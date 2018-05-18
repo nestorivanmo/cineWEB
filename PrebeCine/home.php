@@ -30,9 +30,10 @@
       <h1>Movies<h1>
     </div>
 
-  <?php  if (isset($_SESSION['username'])) : ?>
-        <p> <a href="index.php?logout='1'" style="color: red;">Logout</a> </p>
+   <?php  if (isset($_SESSION['username'])) : ?>
+        <center><div class="logout"> <a href="index.php?logout='1'" id="textL">Logout</a> </div></center>
       <?php endif ?>
+
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
     </a>

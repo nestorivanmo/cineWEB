@@ -8,17 +8,16 @@
 </head>
 <body> 
 
-  <ul class="fly-in-text hidden">
-            <li>P</li>
-            <li>R</li>
-            <li>E</li>
-            <li>B</li>
-            <li>E</li>
+  <div class="boxText">
+    <ul class="fly-in-text hidden">
             <li>C</li>
             <li>I</li>
             <li>N</li>
             <li>E</li>
   </ul>
+  </div>
+
+  
 
  <div class="cuadradoGrande fly-in-text">
   <a href="registration/login.php" id="entrar">Entrar</a>
