@@ -3,10 +3,11 @@
 <html>
 <head>
   <title>Inicia Sesión | PrebeCine</title>
-  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Creepster|Anton" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../style.css">
 </head>
 <body>
-  <div class="header">
+  <div class="header">  
     <h2>Inicia Sesión</h2>
   </div>
    
@@ -23,8 +24,8 @@
     <div class="input-group">
       <button type="submit" class="btn" name="login_user">Login</button>
     </div>
-    <p>
-     ¿No eres fan aún? <a href="register.php">Regístrate</a>
+    <p id="redirigeR">
+     ¿No eres fan aún? <a href="register.php" id="registrateL">Regístrate</a>
     </p>
   </form>
 </body>

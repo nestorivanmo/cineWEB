@@ -4,10 +4,11 @@
 <html>
 <head>
   <title>Regístrate | PrebeCine</title>
-  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Creepster|Anton" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../style.css">
 </head>
 <body>
-  <div class="header">
+  <div class="header2">
   	<h2>Regístrate</h2>
   </div>
 
@@ -32,8 +33,8 @@
   	<div class="input-group">
   	  <button type="submit" class="btn" name="reg_user">Regístrate</button>
   	</div>
-  	<p>
-  		¿Ya eres fan? <a href="login.php">Inicia sesión</a>
+  	<p id="redirigeR">
+  		¿Ya eres fan? <a href="login.php" id="registrateL">Inicia sesión</a>
   	</p>
   </form>
 </body>
