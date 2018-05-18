@@ -17,15 +17,9 @@
   </ul>
   </div>
 
-  
-
  <div class="cuadradoGrande fly-in-text">
   <a href="registration/login.php" id="entrar">Entrar</a>
   </div>
-
-  
-
-
 </body>
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
         <script type="text/javascript">

@@ -5,7 +5,7 @@
 <head>
   <title>Regístrate | PrebeCine</title>
   <link href="https://fonts.googleapis.com/css?family=Creepster|Anton" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="../style.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
   <div class="header2">

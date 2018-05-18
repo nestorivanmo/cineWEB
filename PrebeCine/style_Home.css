@@ -1,0 +1,323 @@
+body{
+
+	margin: 0;
+	padding: 0;
+	background: #262626;
+	font-family: sans-serif;
+
+}
+
+.loader{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.loader h1{
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-size: 10em;
+	color: rgba(255,255,255,.1);
+	background-image: url('img/image1.jpeg');
+	background-repeat: repeat-x;
+	-webkit-background-clip: text;
+	animation: animate 10s linear infinite
+}
+
+.container{
+	width: 300px;
+	min-height: 500px;
+	background: #262626;
+	margin: 70px auto 0;
+	margin: 30px;
+	display: inline-block;
+}
+
+.container .imgBox{
+	position: relative;
+	display: inline-block;
+}
+
+.container .imgBox img{
+	max-width: 100%; 
+	height: 500px;
+	transition: transform 1s;
+}
+
+
+.container .imgBox:hover img{
+	transform: scale(1.1);
+}
+
+.container .box .info{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	bottom: 10px;
+	right: 10px;
+	background: rgba(0,0,0,.8);
+	transform: scaleY(0);
+	transition: transform .5s;
+}
+
+.container .box:hover .info{
+	transform: scaleY(1);
+}
+
+.content {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	padding: 15px;
+	color: #fff;
+}
+
+.container .box .info .content h1{
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	color: #ff0;
+}
+
+.container .box .info .content  p{
+	margin: 10px 0 0;
+	padding: 0;
+}
+
+.logout{
+  width: 150px;
+  height: 40px;
+  background-color: #262626;
+   border: 3px solid #F0B911;
+   margin-top: -40px;
+}
+
+#textL{
+	position: absolute;
+  	margin-top: 8px;
+  margin-left: -35px;
+  font-size: 130%;
+  color:#f4bc42	;
+  text-decoration: none;
+}
+
+#textL:hover{  
+    text-decoration: underline;
+  }
+
+ #username{
+ 	color: #f4bc42; 
+ 	margin-top: 40px; 
+ 	margin-left: 1200px; 
+ 	font-size: 25px;
+ }
+
+ @media only screen and (max-width: 1500px) {
+   #username{
+	margin-top: 40px; 
+ 	margin-left: 1000px; 
+   }
+}
+
+ @media only screen and (max-width: 1300px) {
+    #username{
+	margin-top: 40px; 
+ 	margin-left: 800px; 
+   }
+}
+
+@media only screen and (max-width: 1100px) {
+    #username{
+	margin-top: 40px; 
+ 	margin-left: 600px; 
+   }
+}
+
+@media only screen and (max-width: 800px) {
+	
+    #username{
+	margin-top: 40px; 
+ 	margin-left: 500px; 
+   }
+}
+
+@media only screen and (max-width: 750px) {
+
+    #username{
+	margin-top: 40px; 
+ 	margin-left: 450px; 
+   }
+}
+
+@media only screen and (max-width: 720px) {
+    #username{
+	margin-top: 40px; 
+ 	margin-left: 400px; 
+   }
+}
+
+@media only screen and (max-width: 680px) {
+
+    #username{
+	margin-top: 40px; 
+ 	margin-left: 380px; 
+   }
+}
+
+
+@media only screen and (max-width: 650px) {
+	.loader h1{
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-size: 10em;
+	color: rgba(255,255,255,.1);
+	background-image: url('img/image1.jpeg');
+	background-repeat: repeat-x;
+	-webkit-background-clip: text;
+	animation: animate 10s linear infinite
+	}
+
+    #username{
+	margin-top: 40px; 
+ 	margin-left: 330px; 
+   }
+}
+
+@media only screen and (max-width: 620px) {
+	.loader h1{
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-size: 9em;
+	color: rgba(255,255,255,.1);
+	background-image: url('img/image1.jpeg');
+	background-repeat: repeat-x;
+	-webkit-background-clip: text;
+	animation: animate 10s linear infinite
+	}
+
+    #username{
+	margin-top: 40px; 
+ 	margin-left: 300px; 
+   }
+}
+
+@media only screen and (max-width: 610px) {
+	.loader h1{
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-size: 8em;
+	color: rgba(255,255,255,.1);
+	background-image: url('img/image1.jpeg');
+	background-repeat: repeat-x;
+	-webkit-background-clip: text;
+	animation: animate 10s linear infinite
+	}
+
+    #username{
+	margin-top: 40px; 
+ 	margin-left: 300px; 
+   }
+}
+
+
+@media only screen and (max-width: 550px) {
+	.loader h1{
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-size: 7em;
+	color: rgba(255,255,255,.1);
+	background-image: url('img/image1.jpeg');
+	background-repeat: repeat-x;
+	-webkit-background-clip: text;
+	animation: animate 10s linear infinite
+	}
+
+    #username{
+	margin-top: 40px; 
+ 	margin-left: 240px; 
+   }
+}
+
+@media only screen and (max-width: 500px) {
+
+	.loader h1{
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-size: 6em;
+	color: rgba(255,255,255,.1);
+	background-image: url('img/image1.jpeg');
+	background-repeat: repeat-x;
+	-webkit-background-clip: text;
+	animation: animate 10s linear infinite
+	}
+
+    #username{
+	margin-top: 40px; 
+ 	margin-left: 200px; 
+   }
+}
+
+@media only screen and (max-width: 480px) {
+	.loader h1{
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-size: 6em;
+	color: rgba(255,255,255,.1);
+	background-image: url('img/image1.jpeg');
+	background-repeat: repeat-x;
+	-webkit-background-clip: text;
+	animation: animate 10s linear infinite
+	}
+
+    #username{
+	margin-top: 40px; 
+ 	margin-left: 150px; 
+   }
+}
+
+
+@media only screen and (max-width: 400px) {
+
+	.loader h1{
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-size: 4.8em;
+	color: rgba(255,255,255,.1);
+	background-image: url('img/image1.jpeg');
+	background-repeat: repeat-x;
+	-webkit-background-clip: text;
+	animation: animate 10s linear infinite
+	}
+
+    #username{
+	margin-top: 40px; 
+ 	margin-left: 25px; 
+   }
+}
+
+
+
+@keyframes animate{
+	0%{
+		background-position: left 0px top 10px;
+	}
+	40%{
+		background-position: left 800px top -50px;
+	}
+	80%{
+		background-position: left 1800px top -50px;
+	}
+	100%{
+		background-position: left 2400px top 10px;
+	}
+}
