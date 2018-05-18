@@ -94,6 +94,9 @@ body{
    border: 3px solid #F0B911;
    margin-top: -40px;
 }
+#usernameText{
+	color: white;
+}
 
 #textL{
 	position: absolute;

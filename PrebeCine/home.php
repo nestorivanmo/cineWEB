@@ -23,7 +23,7 @@
 <body>
 
   <?php  if (isset($_SESSION['username'])) : ?>
-        <center><h4 id="username">Bienvenido, @<strong> <?= $_SESSION['username'] ?></strong></h4></center>
+        <center><h4 id="username">Bienvenid@, <string id="usernameText"> <?= $_SESSION['username'] ?></strong></h4></center>
     <?php endif ?> 
   
     <div class="loader">
