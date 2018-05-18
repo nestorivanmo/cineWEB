@@ -26,12 +26,23 @@
     <div class="box"></div>
   </div>
 
+    <div class="loader">
+      <h1>Movies<h1>
+    </div>
+
   <?php  if (isset($_SESSION['username'])) : ?>
         <p> <a href="index.php?logout='1'" style="color: red;">Logout</a> </p>
       <?php endif ?>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
     </a>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
   <?php include 'movies.php'; ?>
 </body>
 </html>
